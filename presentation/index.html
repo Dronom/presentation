@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>SVG</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>SVG</h1>
+					<p>
+						Created by <a href="https://github.com/Dronom">Roman Samuilov</a>
+					</p>
+					
+				</section>
+				<section id="fragments">
+					<h2>What is SVG?</h2>
+					<p>
+						<p class="fragment">Scalable</p>
+						<p class="fragment"> Vector </p>
+						<p class="fragment">Graphics</p>
+					</p>
+				</section>
+				<section>
+					<h2>What is the Vector Graphics?</h2>
+				</section>
+				<section>
+					<h3>Example</h3>
+					<pre><code data-trim style="width: 970px;margin-left:-100px"> 
+						<svg width="400" height="100" >
+							<circle cx="50" cy="50" r="40" style="fill:yellow"/>
+							<circle cx="50" cy="30" r="8" style="fill:#272822"/>
+							<polygon points="50,50 90,75 90,25" style="fill:#272822"/>
+							<circle cx="120" cy="50" r="5" style="fill:yellow"/>
+							<circle cx="145" cy="50" r="5" style="fill:yellow"/>
+							<circle cx="170" cy="50" r="5" style="fill:yellow"/>
+							<circle cx="195" cy="50" r="5" style="fill:yellow"/>
+						</svg>
+					</code></pre>
+					<pre><code data-trim data-noescape style="width: 970px;margin-left:-100px">
+						<svg width="400" height="100" >
+							<circle cx="50" cy="50" r="40" style="fill:yellow"/>
+							<circle cx="50" cy="30" r="8" style="fill:#272822"/>
+							<polygon points="50,50 90,75 90,25" style="fill:#272822"/>
+							<circle cx="120" cy="50" r="5" style="fill:yellow"/>
+							<circle cx="145" cy="50" r="5" style="fill:yellow"/>
+							<circle cx="170" cy="50" r="5" style="fill:yellow"/>
+							<circle cx="195" cy="50" r="5" style="fill:yellow"/>
+						</svg>
+						</code></pre>
+				</section>
+				<section>
+					<section data-background-image = "https://st.depositphotos.com/1186033/2604/i/450/depositphotos_26046741-stock-photo-history.jpg">
+					<h1>HISTORY</h1>
+					</section>
+					<section>
+						<h4>SVG developed by the World Wide Web Consortium (W3C) since 1999</h4>
+						<p>W3C is the main international standards organization for the World Wide Web</p>
+						<p>Among their standards we can find: CSS, DOM, HTML, XML and others</p>
+						<img src="https://upload.wikimedia.org/wikipedia/ru/4/43/W3C_logo.PNG" alt="W3c">
+					</section>
+					<section>
+						<h2>1.1</h2>
+						<p>SVG 1.1 became a W3C Recommendation on 14 January 2003.
+							There is very little difference between SVG 1.1 and SVG 1.0.</p>
+					</section>
+					<section>
+						<h2>1.2</h2>
+						<p>SVG Tiny 1.2 became a W3C Recommendation on 22 December 2008.
+						In this version has been added animation element,"editing-mode" and run-time synchronisation attributes to audio, video and animation. </p>
+					</section>
+					<section>
+						<h2>2.0</h2>
+						<p>SVG 2.0 removes some features of SVG 1.1 and incorporates new features from HTML5:</p>
+						<ul>
+							<li>HTML5 features such as translate and data-* attributes have been added.</li>
+							<li>SVG 2.0 removes several font elements such as glyph and altGlyph</li>
+							<li>delete obsolete attributes</li>
+						</ul>
+						<p>SVG 2.0 reached Candidate Recommendation stage on 15 September 2016. The latest draft was released on 13 April 2019.</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Why SVG?</h2>
+					</section>
+					<section>
+						<h3>Main advantages:</h3>
+						<ul>
+							<li class="fragment">Scalability</li>
+							<li class="fragment">Interactivity</li>
+							<li class="fragment">Compact file-size</li>
+							<li class="fragment">Flexibility</li>
+							<li class="fragment">SEO friendly</li>
+						</ul>
+					</section>	
+				</section>
+				<section>
+					<section>
+						<h3>Disadvantages:</h3>
+						<ul>
+							<li class="fragment">Photo depth</li>
+							<li class="fragment">Possible printing problems</li>
+							<li class="fragment">Drawing speed</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Canvas</h2>
+					</section>
+					<section data-background-image="https://www.instructure.com/sites/blog.instructure/files/og-img/OG_Share_canvas.png"></section>
+				</section>
+					<section>
+						<section>
+							<h2>Where does it apply?</h2>
+						</section>
+						<section>
+							<h2>Logos</h2>
+							<img src="https://cdn.mos.cms.futurecdn.net/oLauZMuVvGeNmeU5rpqWxd.jpg" alt="Logos">
+						</section>
+						<section data-background-image="https://say-hi.me/wp-content/uploads/2016/02/svg-background-e1456157032830.jpg">
+							<h2>Background images</h2>
+						</section>
+						<section>
+							<h2>Diagramms and Graphics</h2>
+							<img src="https://datavizcatalogue.com/RU/metody/images/top_images/SVG/linejnyj_grafik.svg" alt="Graphics">
+						</section>
+						<section>
+							<h2>And much more <span class="fragment">.</span><span class="fragment">.</span><span class="fragment">.</span></h2>
+						</section>
+					</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
